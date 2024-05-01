@@ -1,0 +1,13 @@
+node_modules
+
+# editor directories and files
+.vscode
+.idea
+
+# vitepress
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# local env files
+.env.local
+.env.*.local
