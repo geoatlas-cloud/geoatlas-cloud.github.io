@@ -22,7 +22,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/geo-atlas-cloud/geo-atlas.github.io' }
+      { icon: 'github', link: 'https://github.com/geoatlas-cloud/geoatlas-cloud.github.io' }
     ]
   }
 })
