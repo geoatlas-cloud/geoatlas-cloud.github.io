@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Geo Atlas"
   text: "Basic library for building vector tile services"
-  tagline: My great project tagline
+  tagline: More lightweight, easy, friendly
   actions:
     - theme: brand
       text: Markdown Examples
