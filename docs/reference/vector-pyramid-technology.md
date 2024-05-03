@@ -201,8 +201,8 @@ public class Grid {
 ## 参考
 
 - [影像金字塔原理](https://help.supermap.com/iDesktopX/zh/tutorial/DataProcessing/DataManagement/PyromidSystem.html)
-- [《高性能影像数据瓦片化关键技术研究-刘世永-2016》]()
-- [《矢量数据金字塔结构设计-董滨-2016》]()
+- [《高性能影像数据瓦片化关键技术研究-刘世永-2016》](#)
+- [《矢量数据金字塔结构设计-董滨-2016》](#)
 - [WebGIS数据不切片或是时代必然](https://zhuanlan.zhihu.com/p/512298212)
 - [GeoWebCache](https://github.com/GeoWebCache/geowebcache)
 - [Gridsets and Gridsubsets](https://geowebcache.osgeo.org/docs/current/concepts/gridsets.html)
