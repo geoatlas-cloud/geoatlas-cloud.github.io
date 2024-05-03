@@ -58,7 +58,8 @@ export default defineConfig({
             text: 'Reference',
             items: [
               { text: '切片技术发展', link: '/tiling-technology-development' },
-              { text: '关于矢量瓦片技术支持前端渲染带来的思考', link: '/thoughts-on-mvt-front-end-rendering' }
+              { text: '关于矢量瓦片技术支持前端渲染带来的思考', link: '/thoughts-on-mvt-front-end-rendering' },
+              { text: '矢量金字塔技术研究', link: '/vector-pyramid-technology' }
             ]
           }
         ]
