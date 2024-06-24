@@ -14,7 +14,7 @@ hero:
       link: /guide/what-is-geoatlas
     - theme: alt
       text: 快速开始
-      link: /api-examples
+      link: /guide/getting-started
     - theme: alt
       text: GitHub
       link: https://github.com/geoatlas-cloud/geo-atlas
