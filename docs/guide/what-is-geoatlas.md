@@ -111,6 +111,6 @@ ps: 当然，还有当下信创的背景原因。就当，抛砖引玉了😧，
 - Mapbox Vector Tile Generator由 [java-vector-tile](https://github.com/ElectronicChartCentre/java-vector-tile) 提供支持
 
 ## 版权许可
-[LGPL-3.0 license](./LICENSE)
+[LGPL-3.0 license](https://github.com/geoatlas-cloud/geo-atlas/blob/main/LICENSE)
 
 版权所有 (c) 2024-至今，Geo Atlas。

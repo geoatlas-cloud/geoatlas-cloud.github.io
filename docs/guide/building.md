@@ -1,6 +1,6 @@
 # 构建 {#building}
 
-此处仅描述服务端代码的构建情况, Dashboard的构建还请查看[Geo Atlas Dashboard Building](/dashboard-building)
+此处仅描述服务端代码的构建情况, Dashboard的构建还请查看[Geo Atlas Dashboard Building](/guide/dashboard-building)
 
 1. 克隆代码
     ```shell

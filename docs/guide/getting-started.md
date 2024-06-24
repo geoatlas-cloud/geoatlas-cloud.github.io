@@ -38,7 +38,7 @@
     chmod +x ./build2run.sh
     ./build2run.sh
     ```
-等待服务启动完成后访问: http://localhost:11003, 而后按照GeoServer的使用习惯, 逐步创建
+等待服务启动完成后访问: `http://localhost:11003`, 而后按照GeoServer的使用习惯, 逐步创建
 - namespace
 - datastore
 - feature layer
