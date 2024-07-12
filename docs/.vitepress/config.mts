@@ -135,8 +135,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: 'TileMatrixSet',
       collapsed: false,
       items: [
-        // { text: 'Markdown 扩展', link: 'markdown' },
-        // { text: '资源处理', link: 'asset-handling' },
+        { text: 'TileMatrixSet 简述', link: 'brief-desc-of-tilematrixset' },
+        { text: 'TileMatrixSet 配置', link: 'tilematrixset-config' },
         // { text: 'frontmatter', link: 'frontmatter' },
         // { text: '在 Markdown 使用 Vue', link: 'using-vue' },
         // { text: '国际化', link: 'i18n' }
@@ -175,6 +175,8 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: '切片技术发展', link: 'tiling-technology-development' },
         { text: '关于矢量瓦片技术支持前端渲染带来的思考', link: 'thoughts-on-mvt-front-end-rendering' },
         { text: '矢量金字塔技术研究', link: 'vector-pyramid-technology' },
+        { text: '再谈TileMatrixSet，二维瓦片金字塔结构的标准定义（上）', link: 'what-is-tilematrixset' },
+        { text: '再谈TileMatrixSet，二维瓦片金字塔结构的标准定义（下）', link: 'what-is-tilematrixset-calculation-principle' },
         // { text: 'CLI', link: 'cli' },
         // {
         //   text: '默认主题',
