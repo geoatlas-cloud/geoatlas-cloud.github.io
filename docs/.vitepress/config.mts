@@ -146,7 +146,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: '缓存',
       collapsed: false,
       items: [
-        // { text: '自定义主题', link: 'custom-theme' },
+        { text: '基础理念', link: 'basic-concepts-of-cache' },
         // { text: '扩展默认主题', link: 'extending-default-theme' },
         // { text: '构建时数据加载', link: 'data-loading' },
         // { text: 'SSR 兼容性', link: 'ssr-compat' },
@@ -173,6 +173,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
       text: '参考',
       items: [
         { text: '切片技术发展', link: 'tiling-technology-development' },
+        { text: '关于矢量数据分层控制的随笔', link: 'essay-on-layered-control-of-vector-data' },
         { text: '关于矢量瓦片技术支持前端渲染带来的思考', link: 'thoughts-on-mvt-front-end-rendering' },
         { text: '矢量金字塔技术研究', link: 'vector-pyramid-technology' },
         { text: '再谈TileMatrixSet，二维瓦片金字塔结构的标准定义（上）', link: 'what-is-tilematrixset' },
