@@ -147,7 +147,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: '基础理念', link: 'basic-concepts-of-cache' },
-        // { text: '扩展默认主题', link: 'extending-default-theme' },
+        { text: '快速集成', link: 'fast-integration-of-cache' },
         // { text: '构建时数据加载', link: 'data-loading' },
         // { text: 'SSR 兼容性', link: 'ssr-compat' },
         // { text: '连接 CMS', link: 'cms' }
@@ -178,7 +178,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
         { text: '矢量金字塔技术研究', link: 'vector-pyramid-technology' },
         { text: '再谈TileMatrixSet，二维瓦片金字塔结构的标准定义（上）', link: 'what-is-tilematrixset' },
         { text: '再谈TileMatrixSet，二维瓦片金字塔结构的标准定义（下）', link: 'what-is-tilematrixset-calculation-principle' },
-        // { text: 'CLI', link: 'cli' },
+        { text: 'Geo Atlas Cache，一个精简的GWC组件', link: 'what-is-gac' },
         // {
         //   text: '默认主题',
         //   base: '/zh/reference/default-theme-',
