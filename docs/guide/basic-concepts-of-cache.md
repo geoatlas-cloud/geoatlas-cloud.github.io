@@ -5,7 +5,7 @@
 GeoWebCache中更加强调Tile Layer的概念，并基于此抽象，用以适配数据来源与存储。也就如同GeoServer中，一个图层如果需要拥有缓存能力，那么还需要创建一个Tile Layer。从GeoServer来说，一个拥有缓存的图层，将会同时持有两个Layer，一个是 Map Layer，另一个是Tile Layer。
 TileLayer中进行存储内容的配置，可以随意配置存储容器对象（文件系统、对象存储、数据库等）
 
-而目前Geo Atlas Cache的实现则是大大简化这一操作，没有TileLayer对象，全局共用同一个存储容器对象，无需繁琐的存储配置，通过注解快速启用缓存，我认为这是中小项目中所需要的。
+而目前Geo Atlas Cache的实现则是大大简化这一操作，没有TileLayer对象，全局共用同一个存储容器对象，无需繁琐的存储配置，通过自动装配快速启用缓存，我认为这是中小项目中所需要的。
 
 目前对于tile cache的清理，也就是同gwc中提供的seed、reseed、truncate一般。truncate只需持有BlobStore的句柄即可完成，但seed和reseed则需前往数据的源端获取瓦片，进而才可完成操作，也就是需要持有获取源端瓦片generate的句柄才可。或许这就是为什么gwc中提出TileLayer的原因之一吧。
 但我之前认为gwc的边界不清晰，我认为缓存就做缓存的事情就可以了，应当把Layer、TileMatrixSet（GridSet）和Cache分开。但目前若想要支持seed和reseed的话，至少需要提供一个拓展才可。我在此将其命名为TileSource，是为Cache与Source之间的适配组件。其实，这也是也是一种类如TileLayer的存在，但我并不通过Layer来进行关联控制，也没有Tile Layer的概念，缓存就是缓存。
