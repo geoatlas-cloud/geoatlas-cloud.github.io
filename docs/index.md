@@ -33,11 +33,11 @@ features:
     details: 提供基于自定义数据属性分级能力, 在较大数据量下可大幅度减小切片数据的大小。支持自定义数据范围(OGC TileMatrixSet Limits), 可限定切片请求范围, 提高访问效率以及一定程度提升安全性。
 ---
 
-<p>
+<!-- <p>
   <h2>Geo Atlas 特性展示</h2>
 
   <video controls width="100%">
     <source src="/geo-atlas-preview.mp4" type="video/mp4">
     您的浏览器不支持视频播放。
   </video>
-</p>
+</p> -->

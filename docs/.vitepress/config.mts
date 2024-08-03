@@ -86,14 +86,15 @@ export default defineConfig({
     search: {
       provider: 'local'
     }
-  },
-  markdown: {
-    config: (md) => {
-      md.set({
-        html: true
-      });
-    }
   }
+  // ,
+  // markdown: {
+  //   config: (md) => {
+  //     md.set({
+  //       html: true
+  //     });
+  //   }
+  // }
 })
 
 function nav(): DefaultTheme.NavItem[] {
