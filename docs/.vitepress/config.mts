@@ -86,6 +86,13 @@ export default defineConfig({
     search: {
       provider: 'local'
     }
+  },
+  markdown: {
+    config: (md) => {
+      md.set({
+        html: true
+      });
+    }
   }
 })
 
@@ -95,23 +102,23 @@ function nav(): DefaultTheme.NavItem[] {
       text: 'Home',
       link: '/'
     },
-    { 
-      text: '指南', 
+    {
+      text: '指南',
       link: '/guide/what-is-geoatlas',
       activeMatch: '/guide/'
     },
-    { 
-      text: '示例', 
-      link: '/examples' ,
+    {
+      text: '示例',
+      link: '/examples',
       activeMatch: '/examples/'
     },
-    { 
-      text: 'API', 
+    {
+      text: 'API',
       link: '/api/',
       activeMatch: '/api/'
     },
-    { 
-      text: '参考', 
+    {
+      text: '参考',
       link: '/reference/tiling-technology-development',
       activeMatch: '/reference/'
     },
